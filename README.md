@@ -2,6 +2,8 @@
 
 This project is a news recommendation system built using a **BERT model trained from scratch**, pretrained on **WikiText-103**, and **fine-tuned on AG News** dataset. The app is powered by **Streamlit** and uses **NewsAPI** to fetch the latest headlines. Based on user input, it classifies the articles and recommends news items from the selected category.
 
+![Alt text](app.png)
+
 ---
 
 ## Features
@@ -18,7 +20,7 @@ This project is a news recommendation system built using a **BERT model trained 
 - Intelligent category-based filtering and recommendation
 
 ---
-/Users/hanafahim/Desktop/Screenshot 2025-04-14 at 8.43.18 PM.png
+
 
 ## Model Pipeline
 
