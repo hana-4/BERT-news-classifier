@@ -1,4 +1,4 @@
-# AI-Powered News Recommender
+# BERT from scratch for News Classification
 
 This project is a news recommendation system built using a **BERT model trained from scratch**, pretrained on **WikiText-103**, and **fine-tuned on AG News** dataset. The app is powered by **Streamlit** and uses **NewsAPI** to fetch the latest headlines. Based on user input, it classifies the articles and recommends news items from the selected category.
 
