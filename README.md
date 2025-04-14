@@ -24,8 +24,8 @@ This project is a news recommendation system built using a **BERT model trained 
 
 ## Model Pipeline
 
-1. **Pretraining**: Masked Language Modeling and Next Sentence Prediction on [WikiText-103](https://blog.einstein.ai/the-wikitext-long-term-dependency-language-modeling-dataset/)
-2. **Fine-tuning**: Classification on [AG News](https://www.di.unipi.it/~gulli/AG_corpus_of_news_articles.html)
+1. **Pretraining**: Masked Language Modeling and Next Sentence Prediction on WikiText-103 dataset. 
+2. **Fine-tuning**: Classification on AG News dataset.
 3. **Prediction**: Top headlines fetched using NewsAPI are classified, and only those matching the user’s category input are displayed.
 
 ---
