@@ -1,0 +1,10 @@
+torch
+streamlit
+transformers
+newsapi-python
+torchvision
+tokenizers
+datasets
+tqdm
+numpy
+
