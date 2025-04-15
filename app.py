@@ -50,7 +50,7 @@ if st.button("Fetch & Recommend"):
         with st.spinner("Fetching news articles..."):
             # Fetch top headlines using News API
             newsapi = NewsApiClient(api_key="84cf943dc11e4bf8b1f266048427ffa5")
-            top_headlines = newsapi.get_top_headlines(language="en", page_size=20)
+            top_headlines = newsapi.get_top_headlines(language="en", page_size=50)
             articles = top_headlines.get("articles", [])
 
             recommendations = []
@@ -81,3 +81,6 @@ if st.button("Fetch & Recommend"):
                 st.write(f"**Predicted Category:** {category.capitalize()}")
         else:
             st.warning("No matching articles found.")
+
+if __name__ == "__main__":
+    main()
