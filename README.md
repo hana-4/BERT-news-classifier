@@ -1,6 +1,6 @@
 # BERT from scratch for News Classification
 
-This project is a category based news filtering system leveraging the **BERT model built from scratch**, pretrained on **WikiText-103**, and **fine-tuned on AG News** dataset. The app is powered by **Streamlit** and uses **NewsAPI** to fetch the latest headlines. Based on user input, it classifies the articles and retrieves news items from the selected category.
+This project is a category based news filtering system leveraging the **BERT model built from scratch**, pretrained on **WikiText-103**, and **fine-tuned on AG News** dataset. The app is powered by **Streamlit** and uses **NewsAPI** to fetch the latest headlines. It classifies the news articles and displays items from the category selected by the user.
 
 ![Alt text](app.png)
 
