@@ -32,9 +32,28 @@ This project is a news recommendation system built using a **BERT model trained 
 
 ## Setup Instructions
 
-### 1. Clone the Repository
 
+1. Clone the Repository 
 ```bash
+# clone the repository 
 git clone https://github.com/yourusername/bert-news-recommender.git
 cd bert-news-recommender
+```
+2. Download Pretrained Weights
+
+Download the pretrained model weights from the following Google Drive links and place them in the **project root directory**:
+
+- [`bert_model_wiki103.pth`](https://drive.google.com/file/d/1QBsmfptkhs0e4oBciSLJWAMvTVTXzh8d/view?usp=share_link)
+- [`best_ft_model.pth`](https://drive.google.com/file/d/19h8hDdYn0-wVDJc9uWBF6kuBdYu18hsr/view?usp=share_link)
+
+>  Make sure both files are saved in the **same folder** as your `app.py`.
+
+3. Install Dependencies
+  ```bash
+pip install requirements.txt 
+```
+5. Launch the app
+```bash
+streamlit run app.py 
+```
 
