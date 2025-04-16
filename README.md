@@ -35,7 +35,6 @@ This project is a news recommendation system built using a **BERT model trained 
 
 1. Clone the Repository 
 ```bash
-# clone the repository 
 git clone https://github.com/yourusername/bert-news-recommender.git
 cd bert-news-recommender
 ```
