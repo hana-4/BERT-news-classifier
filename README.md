@@ -51,7 +51,7 @@ Download the pretrained model weights from the following Google Drive links and 
   ```bash
 pip install requirements.txt 
 ```
-5. Launch the app
+4. Launch the app
 ```bash
 streamlit run app.py 
 ```
