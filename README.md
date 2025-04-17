@@ -9,7 +9,7 @@ This project is a category based news filtering system that leverages the **BERT
 ## Features
 
 - Custom BERT architecture implemented from scratch
-- Pretrained on WikiText-103 for language modeling
+- Pretrained on WikiText-103 for Masked Language Modeling and Next Sentence Prediction.
 - Fine-tuned on AG News for 4-class text classification:
   - World
   - Sports
