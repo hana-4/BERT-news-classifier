@@ -22,14 +22,6 @@ This project is a category based news filtering system that leverages the **BERT
 ---
 
 
-## Model Pipeline
-
-1. **Pretraining**: Masked Language Modeling and Next Sentence Prediction on WikiText-103 dataset. 
-2. **Fine-tuning**: Classification on AG News dataset.
-3. **Prediction**: Top headlines fetched using NewsAPI are classified, and only those matching the user’s category input are displayed.
-
----
-
 ## Setup Instructions
 
 
