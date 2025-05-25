@@ -30,7 +30,7 @@ This project is a category based news filtering system that leverages the **BERT
 git clone https://github.com/yourusername/bert-news-recommender.git
 cd bert-news-recommender
 ```
-2. Download Pretrained Weights
+2. Download Trained Model Weights
 
 Download the pretrained model weights from the following Google Drive links and place them in the **project root directory**:
 
