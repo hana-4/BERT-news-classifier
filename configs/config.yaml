@@ -1,0 +1,46 @@
+# BERT News Recommender Configuration
+
+model:
+  vocab_size: 30522
+  d_model: 512
+  n_layers: 6
+  heads: 8
+  dropout: 0.1
+  seq_len: 128
+  num_classes: 4
+
+training:
+  batch_size: 32
+  learning_rate: 0.00002  # 2e-5
+  num_epochs: 3
+  warmup_steps: 500
+  weight_decay: 0.01
+  save_steps: 1000
+  eval_steps: 500
+  gradient_accumulation_steps: 1
+  max_grad_norm: 1.0
+
+data:
+  dataset_name: "ag_news"
+  train_split: "train"
+  test_split: "test"
+  max_seq_length: 128
+  tokenizer_name: "bert-base-uncased"
+
+api:
+  news_api_key: ""  # Set via environment variable
+  wandb_api_key: ""  # Set via environment variable
+  wandb_project: "bert-news-recommender"
+
+paths:
+  model_path: "./best_ft_model.pth"
+  pretrained_model_path: "./bert_model_wiki103.pth"
+  data_dir: "./data"
+  output_dir: "./outputs"
+  log_dir: "./logs"
+
+app:
+  debug: false
+  log_level: "INFO"
+  device: "auto"  # auto, cpu, cuda
+  seed: 42

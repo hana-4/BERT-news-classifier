@@ -1,10 +1,25 @@
+# Core ML dependencies
 torch
-streamlit
 transformers
-newsapi-python
-torchvision
 tokenizers
 datasets
-tqdm
 numpy
+scikit-learn
+
+# Web app and API
+streamlit
+requests
+newsapi-python
+
+# Configuration and environment
+python-dotenv
+PyYAML
+
+# Visualization and monitoring
+matplotlib
+seaborn
+tqdm
+
+# Utilities
+gdown
 
